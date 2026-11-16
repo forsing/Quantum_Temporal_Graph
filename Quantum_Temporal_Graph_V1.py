@@ -27,9 +27,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91_loto_2982.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91_loto_plus_1738.csv"),
+    Path("/data/loto7_4720_k91.csv"),
+    Path("/data/loto7_4720_k91_loto_2982.csv"),
+    Path("/data/loto7_4720_k91_loto_plus_1738.csv"),
 )
 
 
@@ -2012,7 +2012,7 @@ Ucenje modela za test.
 Test NLL: 16.565149
 Zavrsno ucenje: svi istorijski prelazi.
 Potvrdjene vremenske veze u zavrsnom modelu: 0.
-NEXT: [8, 11, 22, 23, 33, 34, 38]
+NEXT: [8, x, 22, y, 33, z, 38]
 
 CSV: loto7_4720_k91_loto_2982.csv
 Potvrdjene vremenske veze u treningu: 0.
@@ -2024,7 +2024,7 @@ Ucenje modela za test.
 Test NLL: 16.566918
 Zavrsno ucenje: svi istorijski prelazi.
 Potvrdjene vremenske veze u zavrsnom modelu: 0.
-NEXT: [7, 8, 9, 23, 24, 26, 34]
+NEXT: [7, x, 9, y, 24, z, 34]
 
 CSV: loto7_4720_k91_loto_plus_1738.csv
 Potvrdjene vremenske veze u treningu: 0.
@@ -2036,7 +2036,7 @@ Ucenje modela za test.
 Test NLL: 16.564538
 Zavrsno ucenje: svi istorijski prelazi.
 Potvrdjene vremenske veze u zavrsnom modelu: 0.
-NEXT: [2, 4, 11, 12, 18, 23, 27]
+NEXT: [2, x, 11, y, 18, z, 27]
 """
 
 
